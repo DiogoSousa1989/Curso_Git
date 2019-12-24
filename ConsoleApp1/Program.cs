@@ -10,6 +10,8 @@ namespace ConsoleApp1
             int n = int.Parse(Console.ReadLine());
             Calculator.calcular(ref n);
             Console.WriteLine(n);
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Agora deu");
         }
     }
 }
